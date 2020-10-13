@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background = "@color/grisOscuro"
+    >
+
+
+    <TextView
+        android:id="@+id/screen"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:gravity="end"
+        android:layout_marginEnd="10dp"
+        android:textColor="#fff"
+        android:textSize="100dp"
+
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.8"
+        android:orientation="horizontal"
+        >
+
+        <Button
+            style="@style/Operators_Button"
+            android:id="@+id/btnAC"
+            android:text="AC"
+            />
+        <Button
+            style="@style/Operators_Button"
+            android:id="@+id/btn"
+            android:text="+/-"
+            />
+        <Button
+            style="@style/Operators_Button"
+            android:id="@+id/btnPorc"
+            android:text="%"
+            />
+        <Button
+            style="@style/Operators_Button"
+            android:id="@+id/btnDiv"
+            android:text="/"
+            android:background="@color/naranja"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        >
+        <Button
+            style="@style/Numbers_Button"
+            android:id="@+id/num7"
+            android:text="7"
+            />
+        <Button
+            style="@style/Numbers_Button"
+            android:id="@+id/num8"
+            android:text="8"
+            />
+        <Button
+            style="@style/Numbers_Button"
+            android:id="@+id/num9"
+            android:text="9"
+            />
+        <Button
+            style="@style/Operators_Button"
+            android:id="@+id/btnMult"
+            android:text="X"
+            android:background="@color/naranja"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            style="@style/Numbers_Button"
+            android:id="@+id/num4"
+            android:text="4"
+            />
+        <Button
+            style="@style/Numbers_Button"
+            android:id="@+id/num5"
+            android:text="5"
+            />
+        <Button
+            style="@style/Numbers_Button"
+            android:id="@+id/num6"
+            android:text="6"
+            />
+        <Button
+            style="@style/Operators_Button"
+            android:text="-"
+            android:id="@+id/btnRest"
+            android:background="@color/naranja"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+
+        >
+
+        <Button
+            style="@style/Numbers_Button"
+            android:id="@+id/num1"
+            android:text="1"
+            />
+        <Button
+            style="@style/Numbers_Button"
+            android:id="@+id/num2"
+            android:text="2"
+            />
+        <Button
+            style="@style/Numbers_Button"
+            android:id="@+id/num3"
+            android:text="3"
+            />
+        <Button
+            style="@style/Operators_Button"
+            android:id="@+id/btnSum"
+            android:text="+"
+            android:background="@color/naranja"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            style="@style/Numbers_Button"
+            android:text="0"
+            android:id="@+id/num0"
+            android:layout_weight="2"
+            />
+        <Button
+            style="@style/Numbers_Button"
+            android:id="@+id/btnDec"
+            android:text="."
+            />
+        <Button
+            style="@style/Operators_Button"
+            android:text="="
+            android:id="@+id/btnIgual"
+            android:background="@color/naranja"
+            />
+
+    </LinearLayout>
+
+
+</LinearLayout>
