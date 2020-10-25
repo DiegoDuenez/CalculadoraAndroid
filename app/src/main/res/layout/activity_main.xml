@@ -9,6 +9,14 @@
     android:background = "@color/grisOscuro"
     >
 
+    <TextView
+        android:id="@+id/screenhistorico"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="end"
+        android:layout_marginEnd="10dp"
+        android:textColor="#fff"
+        android:textSize="20sp"/>
 
     <TextView
         android:id="@+id/screen"
